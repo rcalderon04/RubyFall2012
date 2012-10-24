@@ -1,4 +1,5 @@
 class Book
+<<<<<<< HEAD
   attr_accessor :title, :pageCount
   # make the argument not required
   #def initialize(title="Not Set")
@@ -16,4 +17,17 @@ class Book
   #writers
   #def title=(title)
   #  @title = title
+=======
+
+	attr_accessor :title, :pages
+
+	def initialize(title, pages)
+		@title = title
+		@pages = pages
+	end
+
+	def page_count
+		"Page count is #{@pages}"
+	end
+>>>>>>> 476e4b543ee68aad8bb809afdfe2207afd39e8e5
 end
